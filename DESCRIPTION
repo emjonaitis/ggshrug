@@ -1,0 +1,8 @@
+Package: ggshrug
+Version: 0.1
+Date: 2020-10-02
+Title: Shruggies with ggplot2s
+Description: Creates a geom_linerange plot that looks like a shrug emoticon.
+Author: Erin Jonaitis <emjonaitis@gmail.com>
+Maintainer: Erin Jonaitis <emjonaitis@gmail.com>
+RoxygenNote: 7.1.1
