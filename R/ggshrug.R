@@ -23,7 +23,7 @@ ggshrug <- function(df, x, y, ymin, ymax, xlab='group', ylab='quantity') {
                        ymax=ymax),
                    lty=5,
                    position=ggplot2::position_nudge(x=-0.03)) +
-    ggplot2::geom_label(label='\u30C4', family='Arial Unicode MS',
+    ggplot2::geom_label(label='\u0028\u30C4\u0029', family='Arial Unicode MS',
                fill='white', label.size=NA) + 
     ggplot2::geom_label(ggplot2::aes(y=ymin), label=left, fill='white', 
                label.padding=ggplot2::unit(0.1, 'lines'), label.size=NA) +
